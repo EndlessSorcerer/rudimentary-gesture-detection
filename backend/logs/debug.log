@@ -1,0 +1,1112 @@
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Creating converter from 3 to 5
+Not Found: /
+Not Found: /
+5 out of the last 5 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001DE9D6CFDC0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Creating converter from 3 to 5
+C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Bad Request: /api/videos/
+Bad Request: /api/videos/
+Bad Request: /api/videos/
+Bad Request: /api/videos/
+Creating converter from 3 to 5
+C:\Users\Umang\Desktop\reactdjangop\backend\api\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Bad Request: /api/videos/
+Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py", line 54, in perform_create
+    video = serializer.save()
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\Umang\Desktop\reactdjangop\backend\api\serializers.py", line 46, in create
+    processed_result = process_uploaded_video(video)  # Process the uploaded video
+  File "C:\Users\Umang\Desktop\reactdjangop\backend\api\serializers.py", line 27, in process_uploaded_video
+    processed_result = process_video(video_path)
+  File "C:\Users\Umang\Desktop\reactdjangop\backend\api\serializers.py", line 19, in process_video
+    print(result)
+UnboundLocalError: local variable 'result' referenced before assignment
+C:\Users\Umang\Desktop\reactdjangop\backend\api\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py", line 54, in perform_create
+    video = serializer.save()
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\serializers.py", line 212, in save
+    self.instance = self.create(validated_data)
+  File "C:\Users\Umang\Desktop\reactdjangop\backend\api\serializers.py", line 48, in create
+    processed_result = process_uploaded_video(video)  # Process the uploaded video
+  File "C:\Users\Umang\Desktop\reactdjangop\backend\api\serializers.py", line 29, in process_uploaded_video
+    processed_result = process_video(video_path)
+  File "C:\Users\Umang\Desktop\reactdjangop\backend\api\serializers.py", line 21, in process_video
+    print(result)
+UnboundLocalError: local variable 'result' referenced before assignment
+C:\Users\Umang\Desktop\reactdjangop\backend\api\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Creating converter from 3 to 5
+Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py", line 55, in perform_create
+    processed_result = process_uploaded_video(video)
+  File "C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py", line 34, in process_uploaded_video
+    video_path = video.video_file.path
+AttributeError: 'dict' object has no attribute 'video_file'
+C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Creating converter from 3 to 5
+Bad Request: /api/videos/
+C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Bad Request: /api/videos/
+Creating converter from 3 to 5
+Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py", line 55, in perform_create
+    processed_result = process_uploaded_video(video)
+  File "C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py", line 34, in process_uploaded_video
+    video_path = video.video_file.path
+AttributeError: 'dict' object has no attribute 'video_file'
+C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Creating converter from 3 to 5
+C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Bad Request: /api/videos/
+Bad Request: /api/videos/
+Creating converter from 3 to 5
+C:\Users\Umang\Desktop\reactdjangop\backend\api\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Creating converter from 3 to 5
+C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Creating converter from 3 to 5
+C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Creating converter from 3 to 5
+C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Creating converter from 3 to 5
+C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py", line 51, in perform_create
+    processed_result = process_uploaded_video(video)
+  File "C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py", line 33, in process_uploaded_video
+    video_path = video.video_file.path
+AttributeError: 'VideoSerializer' object has no attribute 'video_file'
+Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py", line 51, in perform_create
+    processed_result = process_uploaded_video(video)
+  File "C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py", line 33, in process_uploaded_video
+    video_path = video.video_file.path
+AttributeError: 'VideoSerializer' object has no attribute 'video_file'
+Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py", line 51, in perform_create
+    processed_result = process_uploaded_video(video)
+  File "C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py", line 33, in process_uploaded_video
+    video_path = video.video_file.path
+AttributeError: 'VideoSerializer' object has no attribute 'video_file'
+C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Creating converter from 3 to 5
+Bad Request: /api/videos/
+C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py", line 52, in perform_create
+    video = serializer.validated_data()
+TypeError: 'collections.OrderedDict' object is not callable
+C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Creating converter from 3 to 5
+C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py", line 53, in perform_create
+    processed_result = process_uploaded_video(video)
+  File "C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py", line 33, in process_uploaded_video
+    video_path = video.video_file.path
+AttributeError: 'VideoSerializer' object has no attribute 'video_file'
+C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Creating converter from 3 to 5
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Creating converter from 3 to 5
+Bad Request: /api/videos/
+C:\Users\Umang\Desktop\reactdjangop\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Creating converter from 3 to 5
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop2\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "C:\Users\Umang\Desktop\reactdjangop2\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Umang\Desktop\reactdjangop2\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop2\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop2\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop2\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Umang\Desktop\reactdjangop2\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Umang\Desktop\reactdjangop2\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Umang\Desktop\reactdjangop2\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop2\venv\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 155, in perform_create
+    processed_result = process_video(video.video_file.path)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 105, in process_video
+    faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+cv2.error: OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\objdetect\src\cascadedetect.cpp:1689: error: (-215:Assertion failed) !empty() in function 'cv::CascadeClassifier::detectMultiScale'
+
+Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "C:\Users\Umang\Desktop\reactdjangop2\venv\lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+  File "C:\Users\Umang\Desktop\reactdjangop2\venv\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop2\venv\lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop2\venv\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop2\venv\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Umang\Desktop\reactdjangop2\venv\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Umang\Desktop\reactdjangop2\venv\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Umang\Desktop\reactdjangop2\venv\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Umang\Desktop\reactdjangop2\venv\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 155, in perform_create
+    processed_result = process_video(video.video_file.path)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 105, in process_video
+    faces = face_cascade.detectMultiScale(gray, 1.3, 5)
+cv2.error: OpenCV(4.7.0) D:\a\opencv-python\opencv-python\opencv\modules\objdetect\src\cascadedetect.cpp:1689: error: (-215:Assertion failed) !empty() in function 'cv::CascadeClassifier::detectMultiScale'
+
+Watching for file changes with StatReloader
+C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Creating converter from 3 to 5
+C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 191, in perform_create
+    processed_result = process_uploaded_video(video)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 182, in process_uploaded_video
+    processed_result = process_video(video_path)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 176, in process_video
+    print(result)
+NameError: name 'result' is not defined
+C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 195, in perform_create
+    processed_result = process_uploaded_video(video)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 186, in process_uploaded_video
+    processed_result = process_video(video_path)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 180, in process_video
+    print(result)
+NameError: name 'result' is not defined
+C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 195, in perform_create
+    processed_result = process_uploaded_video(video)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 186, in process_uploaded_video
+    processed_result = process_video(video_path)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 180, in process_video
+    print(result)
+NameError: name 'result' is not defined
+C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 195, in perform_create
+    processed_result = process_uploaded_video(video)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 186, in process_uploaded_video
+    processed_result = process_video(video_path)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 180, in process_video
+    print(result)
+NameError: name 'result' is not defined
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 195, in perform_create
+    processed_result = process_uploaded_video(video)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 186, in process_uploaded_video
+    processed_result = process_video(video_path)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 180, in process_video
+    print(result)
+NameError: name 'result' is not defined
+C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 195, in perform_create
+    processed_result = process_uploaded_video(video)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 186, in process_uploaded_video
+    processed_result = process_video(video_path)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 180, in process_video
+    print(result)
+NameError: name 'result' is not defined
+Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 195, in perform_create
+    processed_result = process_uploaded_video(video)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 186, in process_uploaded_video
+    processed_result = process_video(video_path)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 180, in process_video
+    print(result)
+NameError: name 'result' is not defined
+Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 195, in perform_create
+    processed_result = process_uploaded_video(video)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 186, in process_uploaded_video
+    processed_result = process_video(video_path)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 180, in process_video
+    print(result)
+NameError: name 'result' is not defined
+C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Internal Server Error: /api/videos/
+Traceback (most recent call last):
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\exception.py", line 56, in inner
+    response = get_response(request)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\django\views\decorators\csrf.py", line 55, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\viewsets.py", line 125, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\rest_framework\mixins.py", line 19, in create
+    self.perform_create(serializer)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 194, in perform_create
+    processed_result = process_uploaded_video(video)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 185, in process_uploaded_video
+    processed_result = process_video(video_path)
+  File "C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py", line 179, in process_video
+    print(result)
+UnboundLocalError: local variable 'result' referenced before assignment
+C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+C:\Users\Umang\Desktop\reactdjangop2\backend\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\AppData\Local\Programs\Python\Python39\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop2\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Not Found: /
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+Creating converter from 7 to 5
+Creating converter from 5 to 7
+matplotlib data path: C:\Users\Umang\Desktop\reactdjangop2\venv\lib\site-packages\matplotlib\mpl-data
+CONFIGDIR=C:\Users\Umang\.matplotlib
+interactive is False
+platform is win32
+CACHEDIR=C:\Users\Umang\.matplotlib
+Using fontManager instance from C:\Users\Umang\.matplotlib\fontlist-v330.json
+Bad Request: /api/videos/
+C:\Users\Umang\Desktop\reactdjangop2\backend\api\serializers.py changed, reloading.
